@@ -1,0 +1,123 @@
+*{
+}
+
+html{
+}
+
+nav{
+	text-align:center;
+	background:rgba(232,84,39,0.7);
+	margin-top:0;
+	margin-bottom:2%;
+	padding:1%;
+}
+
+body{
+	color:#ff8e2a;
+	background: repeating-linear-gradient(45deg, 
+		#ae2d2c 10px, 
+		#ae2d2c 30px, 
+		#e85327 30px, 
+		#e85327 40px);
+	font-family:tahoma;
+	margin:0;
+}
+
+header{
+	text-align:center;
+	background:#e85327;
+}
+
+h1{
+	padding:4%;
+	margin-top:0;
+	margin-bottom:1%;
+	font-family:MyFont;
+	font-size:500%;
+}
+
+h2{
+	margin:0%;
+	background:#e85327;
+	padding:2%;
+	border-radius:5px;
+	text-align:center;
+}
+
+nav>a{
+	color:#62122f;
+	display:inline-block;
+	text-decoration:none;
+	border:1px solid black;
+	background:#62122f;
+	padding:1%;
+	margin-right:0.5%;
+	margin-left:0.5%;
+	box-shadow:2px 2px 2px #000000;
+}
+
+nav>a:link{
+	color:#ff8e2a
+}
+
+nav>a:visited{
+	color:rgba(232,84,39,0.7);
+}
+
+nav>a:hover{
+	color:red;
+
+}
+
+
+footer{
+}
+
+section{
+	padding:2%;
+	margin:2%;
+	background:#62122f;
+	border-radius:10px;
+	box-shadow:2px 2px 3px #000000;
+}
+
+p{
+	text-indent:2%;
+	padding:2%;
+	text-align: justify;
+    letter-spacing:1px;
+    word-wrap:normal;
+}
+
+.Mark{
+	font-style:italic;
+	color:#FC0008;
+	text-decoration:underline;
+}
+
+.flex-container{
+	display:flex;
+	max-width:100%;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.flex-container > section{
+	margin:0.5%;
+	margin-bottom:0;
+	width:28%;
+	padding:1%;
+}
+
+.Central{
+	width:60%;
+	margin:0 auto;
+}
+ul{
+	letter-spacing:1px;
+}
+
+@font-face{
+	font-family:MyFont;
+	src:url(digital-7.ttf);
+}
